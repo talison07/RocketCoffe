@@ -1,0 +1,113 @@
+* {
+    font-family: "Manrope", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background: #000 url(../assets/blur-mobile.png) no-repeat bottom;
+    background-size: contain;
+
+    overflow: hidden;
+    font-size: 10px;
+}
+
+#logoDesktop {
+    display: none;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+/* #menuOpen {
+    justify-self: flex-end;
+
+} */
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 2rem 0rem 2rem;
+
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text-color)
+}
+
+#text {
+    max-width: 300px;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 80px;
+}
+
+button {
+    color: var(--text-color);
+    font-weight: 600;
+
+    width: 170px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid var(--button);
+    border-radius: 4px;
+
+    transition: all 500ms;
+}
+
+button:hover {
+    background-color: var(--button);
+}
+
+#stroke {
+    color: rgba(0, 0, 0, 0.753);
+    text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
+
+#coffe {
+    width: 500px;
+    justify-self: flex-end;
+    margin-top: 30px;
+
+}
