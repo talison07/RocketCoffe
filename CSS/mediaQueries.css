@@ -1,0 +1,7 @@
+@media screen and (min-width:768px) and (max-width:992px) {
+    body {
+        background: #000 url(../assets/blur-1.png) url(../assets/blur-2.png) no-repeat;
+        background-position: bottom left, top right;
+
+    }
+}
