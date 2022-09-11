@@ -84,11 +84,11 @@ main {
     top: 20%;
 }
 
-#title {
+/* #title {
     text-align: center;
     font-size: 1.2rem;
     margin-top: 50px;
-}
+} */
 
 button {
     color: var(--text-color);
@@ -107,7 +107,7 @@ button:hover {
     background-color: var(--button);
 }
 
-#stroke {
+#stroke02 {
     color: rgba(0, 0, 0, 0.753);
     text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
 }

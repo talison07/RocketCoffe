@@ -1,7 +1,40 @@
-@media screen and (min-width:768px) and (max-width:992px) {
+@media (min-width: 1024px) {
     body {
         background: #000 url(../assets/blur-1.png) url(../assets/blur-2.png) no-repeat;
         background-position: bottom left, top right;
 
+    }
+
+    /* desativar as tags do mobile */
+    section.menu,
+    h1#text {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+
+
+    /*ativando as tags do desktop mode*/
+    #stroke01, 
+    #stroke02{
+        font-size: 8rem;
+        width: 100%;
+        line-height: 1rem;
+        font-weight: 900;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%);
+
+       
+    }
+
+    #stroke01{
+        top: 25%;
+    } 
+
+    #stroke02{
+        top: 35%;
     }
 }
