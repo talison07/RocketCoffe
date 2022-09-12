@@ -6,7 +6,7 @@
     body {
         background-image: url(../assets/blur-1.png), url(../assets/blur-2.png);
         background-position: bottom left, top right;
-        background-size: 500px;
+        background-size: auto;
 
     }
 
